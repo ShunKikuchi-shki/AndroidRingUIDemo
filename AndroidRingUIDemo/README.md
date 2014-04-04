@@ -6,5 +6,5 @@ AndroidでSurfaceViewを用いたリング状のアイコン表示のデモア�
   
 参考図書  
 ・OpenGLで作るAndroid SDK ゲームプログラミング  
-上記図書内の座標の取り方、タッチ時のロジックを参考に、SurfaceViewに適用しました。  
+上記図書内の座標の取り方、タッチ判定のロジックを参考に、SurfaceViewに適用しました。  
 
