@@ -1,1 +1,1 @@
-AndroidRingUIDemo====
+AndroidRingUIDemo
