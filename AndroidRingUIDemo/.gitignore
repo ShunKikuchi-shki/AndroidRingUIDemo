@@ -26,4 +26,4 @@ proguard/
 .classpath
 .project
 
-.setting/org.eclipse.jdt.core.prefs
+.setting/
