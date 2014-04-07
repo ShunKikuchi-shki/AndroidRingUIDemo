@@ -15,11 +15,11 @@ public class MyRing {
 	public static float TOUCH_POINT_RADIUS_RATE = 0.7f;//各アイコンのタッチ範囲の大きさ(0.5fの時、ちょうどアイコン画像に内接する円の大きさになる。)
 	float mX = 0.5f;
 	float mY = 0.5f;//(SurfaceViewの左上を(0.0f,0.0f),右下を(1.0f,1.0f)として、リングの中心座標の位置
-	float mRingSizeX = 1.4f;
+	float mRingSizeX = 1.05f;
 	float mRingSizeY = 0.3f;//リングの大きさの相対座標
-	float mRad = 0.0f;//最前面を180度,最背面を0度とした場合の角度。IconListの最初のIconの描画される角度になる。
+	float mRad = 0.0f;//最前面を180度(6時の方向),最背面を0度(12時の方向)とした場合の角度。IconListの最初のIconの描画される角度になる。
 	float mRadSpeed = 0.0f;//現在のリングの回転速度。フリックで速度が変わる。
-	float mRadOffset = 0.0f;//次のアイコンとの角度
+	float mRadOffset = 0.0f;//次のアイコンとの間の角度(時計回り)単位はラジアン
 	float mIconSize = 0.2f;//各アイコンのサイズ
 	float mIconMaxSize = 0.2f;//最前面でのアイコンの大きさ
 	float mIconMinSize = 0.1f;//最後面でのアイコンの大きさ
