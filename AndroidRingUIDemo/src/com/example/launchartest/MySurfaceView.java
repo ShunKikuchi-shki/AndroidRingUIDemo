@@ -48,10 +48,6 @@ public class MySurfaceView extends SurfaceView implements Callback,Runnable{
 		} catch (ClassCastException e) {
 			throw new ClassCastException(context.toString() + " must implement MySurfaceViewCallback");
 		}
-		myRing.mX = 0.5f;
-		myRing.mY = 0.5f;
-		myRing.mRingSizeX = 1.2f;
-		myRing.mRingSizeY = 0.3f;
 		mRunning = true;
 		mGestureDetector = new GestureDetector(getContext(),new MyGestureListener(this));
 		mHolder = getHolder();
