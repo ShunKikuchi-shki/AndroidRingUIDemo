@@ -62,7 +62,9 @@ public class MySurfaceView extends SurfaceView implements Callback,Runnable{
 	 * @param myIcon
 	 */
 	public void addIcon(MyIcon myIcon){
-		myRing.addIcon(myIcon);
+		synchronized(mHolder){
+			myRing.addIcon(myIcon);
+		}
 	}
 
 	@Override
